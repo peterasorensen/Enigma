@@ -1,0 +1,19 @@
+if errlim=1 TEST_SRC=/home/ff/cs61b/testing-files/proj1 /home/ff/cs61b/testing-files/proj1/do-extra-tests; then \
+	     echo; echo "All our extra-credit tests passed."; \
+	     echo "  V. Passed extra-credit tests." >> $REPORT; \
+         else \
+	     echo; echo "Some of our extra-credit tests failed."; \
+	     echo "  V. Some of our extra-credit tests failed." >> $REPORT; \
+	 fi; \
+	 echo; echo "****************"; \
+
+Tests of extra-credit inputs...
+/home/ff/cs61b/testing-files/proj1/extra/newchars.inp: Error: bad
+ERROR (bad exit code)
+
+/home/ff/cs61b/testing-files/proj1/extra/permuted.inp: ERROR (output)
+/home/ff/cs61b/testing-files/proj1/extra/reduced.inp: Error: bad
+ERROR (bad exit code)
+
+
+
